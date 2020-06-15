@@ -1,0 +1,31 @@
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+html{
+    font-size: 10px;
+    font-family: placeholder;
+    background-color: #00539f;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center; 
+    margin: 0;
+    padding: 10px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;/* 第一個參數水平偏移,第二個參數垂持偏移,第三個參數模糊?，第四個參數影子顏色 */
+}
+p,li{
+    
+    font-size: 16px;
+    line-height: 2; /* 行高 每一行距離*/
+    letter-spacing: 1px; /* 字距 每個字的距離*/
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
